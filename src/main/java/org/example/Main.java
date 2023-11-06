@@ -14,6 +14,9 @@ public class Main {
         log = LogManager.getLogger("prueba");
 
         log.info("Esto es un mensaje desde el main");
+
+        Felino gato = new Felino("gato",2,true);
+        gato.correr();
     }
 
 }
