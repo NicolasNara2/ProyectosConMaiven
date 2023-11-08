@@ -51,7 +51,7 @@ han dirigido a un registrador específico. En este caso, el nivel de registro se
         <Logger name="prueba" level="info" additivity="true">
             <AppenderRef ref="Console"/>
         </Logger>
-        <Root level="info">
+        <Root level="warn">
             <AppenderRef ref="File"/>
         </Root>
     </Loggers>
